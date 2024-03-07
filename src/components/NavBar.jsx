@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import './NavBar.css';
+import Logo from '/Users/sethspring/Development/Code/Phase-2/social-media-app-p2/src/Assets/RolodexLogo.png';
 
 const NavBar = ({search, setSearch}) => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const NavBar = ({search, setSearch}) => {
         <nav>
             <div className="logo-search-container">
                 <Link to="/" className="logo">
-                    <img src="https://i.pinimg.com/originals/ec/81/69/ec8169fec55371f6824b8a0f3725c4b2.png" alt="" />
+                    <img src={Logo} alt="" />
                 </Link>
                 <div className='searchBar'>
                     <input type='text' className='search' placeholder='Search...' value={search} onChange={(e) => setSearch(e.target.value)}/>

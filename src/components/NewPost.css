@@ -1,6 +1,10 @@
 /* Establish a base font size */
 html {
     font-size: 16px; 
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Styling for the form container */
@@ -12,6 +16,10 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 
 }
 /* Animation for form entrance */
@@ -40,13 +48,18 @@ html {
 
 /* Styling for the form */
 .show{
-    background-color:#166fe5;
+    background-color: #606c38;
     padding: 0.75rem;
     color: white;
     border: 0.25rem solid white;
     border-radius: 1rem;
     font-size: 1rem;
     margin: 3rem;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
    
 }
 .form {
@@ -56,18 +69,22 @@ html {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); 
     width: 100%; /* Take full width of container */
     max-width: 37.5rem; /* Adjust max-width as needed */
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Styling for the input fields */
-.input,
-.review
- {
-    width: 90%;
-}
 
 .input,
 .review {
     margin-bottom: 0.625rem; 
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 90%;
 }
 
 .input,
@@ -76,6 +93,10 @@ html {
     border: 0.0625rem solid #dddfe2; 
     border-radius: 0.3125rem; 
     font-size: 1rem; 
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .review {
@@ -86,17 +107,26 @@ html {
     border: 0.0625rem solid #dddfe2; 
     border-radius: 0.3125rem; 
     font-size: 1rem; 
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Styling for the submit button */
 .submit-button {
-    background-color: #1877f2;
+    background-color: #a3b18a;
     color: #fff;
     cursor: pointer;
     width: 95%;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Styling for the submit button on hover */
 .submit-button:hover {
-    background-color: #166fe5;
+    background-color: #606c38;
 }
+

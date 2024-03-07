@@ -1,7 +1,22 @@
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .App {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   background-color: #fefefe; 
   height: 100%;
   width: 100%;
+}
+
+html, body{
+  margin: 0px;
 }
 
 /* .nav-container{
