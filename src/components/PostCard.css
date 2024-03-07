@@ -1,4 +1,10 @@
-/* PostCard.css */
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .post-container {
     width: 100%;
     max-width: 600px;
@@ -36,13 +42,18 @@
   .hide-button {
     margin-left: auto;
     margin-right: 10px;
-    background-color: #1877f2; /* Facebook blue */
-    color: #fff; /* White text color */
+    background-color: #606c38; 
+    color: #fff; 
     border: none;
     border-radius: 5px;
-    padding: 8px 16px; /* Adjust padding as needed */
-    font-size: 14px; /* Adjust font size as needed */
+    padding: 8px 8px; 
+    font-size: 14px; 
     cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 90px;
   }
   
   
@@ -64,23 +75,13 @@
     align-items: center;
   }
   
-  .like-button, .comment-button, .dislike-button {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 16px;
-    margin-right: 5px
-  }
-  
-  .comment-button {
-    color: #333;
-  }
-  
   .comment-section {
-    list-style: none;
-    padding: 0;
-    margin-top: 16px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0;
   }
   
   .comment-bubble {
@@ -89,13 +90,54 @@
     border-radius: 8px;
     margin-bottom: 8px;
     font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+  }
+
+  .divider {
+    border-top: 1px solid #c2c2c2; 
     
   }
+
+
   
-  /* form {
+  
+  .engagement-container{
     display: flex;
-    justify-content: center;
-  } */
+    margin-top: 1rem;
+    /* justify-content: space-between;
+    align-items: flex-start;  */
+  }
+
+    .like-button-container{
+      display: flex;
+      flex-direction: row;
+    }
+
+        .like-button, .dislike-button{
+          background-color: transparent;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+        }
+
+        .comment-button{
+          background-color: transparent;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: start;
+        }
+
+
   
   
   

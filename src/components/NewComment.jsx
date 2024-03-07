@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './NewComment.css'
 
 const NewComment = ({comments, setDisplayComments, id}) => {
 
@@ -25,8 +26,8 @@ const NewComment = ({comments, setDisplayComments, id}) => {
   return (
     <div className='new-comment'>
       <form onSubmit={submitClicked} >
-        <input type="text"  placeholder='Write your thoughts about it...' name='comments' className='comments' value={comment} onChange={(e) => setComment(e.target.value)} style={{borderRadius: '1rem', border: '.25rem solid lightblue', padding: '0.75rem', width: '80%', height: '0.75rem', marginTop: '1rem', marginRight: '1rem'}}/>
-        <button className="submit-comment" style={{marginRight: 0, height: '1rem', marginTop:  '1.1rem', padding: '1rem', border: '0.25rem solid lightblue', borderRadius: '1rem ', display: 'flex', alignItems: 'center', color: 'darkgrey'}}>Submit</button>
+        <input type="text"  placeholder='Post a reply' name='comments' className='comment-box' value={comment} onChange={(e) => setComment(e.target.value)}/>
+        <button className="submit-comment">Submit</button>
       </form>
     </div>
   )
