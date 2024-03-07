@@ -56,7 +56,7 @@ function PostCard({ id, name, review, likes, comments = [], image, profilePic })
         <div className="post-header">
               <img src={image} alt="Post Image" />
               <p style={{ fontWeight: 'bold' }}>{review}</p>
-          <div class="divider"></div>   
+          <div className="divider"></div>   
           <div className="engagement-container">
             <div className="like-button-container">
                 <button className="like-button" onClick={() => handleLikes(true)} style={{ textAlign: 'center' }}>

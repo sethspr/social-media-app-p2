@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import './NavBar.css';
-import Logo from '/Users/sethspring/Development/Code/Phase-2/social-media-app-p2/src/Assets/RolodexLogo.png';
+import Logo from '/Users/sethspring/Development/Code/Phase-2/social-media-app-p2/src/Assets/VibesLogo.png';
 
 const NavBar = ({search, setSearch}) => {
     const [menuOpen, setMenuOpen] = useState(false);
